@@ -1,53 +1,33 @@
-
-import React, { useEffect, useState } from 'react'
-import './Dashboard.css'
-import Logout from '../../components/Logout'
-import ThemeToggle from '../../components/ThemeToggle'
-import { useNavigate } from 'react-router-dom'
-
+import React, { useEffect } from 'react';
+import './Dashboard.css';
+import { useTheme } from '../../components/Theme/ThemeContext';
+import AccountSummary from '../../components/AccountSummary';
+import { useNavigate } from 'react-router-dom';
+import Layout from '../../components/Layout';
 
 function Dashboard(): React.ReactElement {
-  const navigate = useNavigate();
-  const [theme, setTheme] = useState<'light' | 'dark'>(() => {
-    if (typeof window !== 'undefined') {
-      return document.documentElement.classList.contains('dark') ? 'dark' : 'light';
-    }
-    return 'light';
-  });
+    const navigate = useNavigate();
+    const { theme } = useTheme();
 
-  useEffect(() => {
-    const token = localStorage.getItem('authToken');
-    if (!token) {
-      navigate('/login', { replace: true });
-    }
-  }, [navigate]);
+    useEffect(() => {
+        const token = localStorage.getItem('authToken');
+        if (!token) {
+            navigate('/login', { replace: true });
+        }
+    }, [navigate]);
 
-  useEffect(() => {
-    document.documentElement.classList.remove('light', 'dark');
-    document.documentElement.classList.add(theme);
-  }, [theme]);
+    // For demo, get username from localStorage or fallback
+    const username = localStorage.getItem('username') || 'guest';
 
-  const toggleTheme = () => {
-    setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
-  };
-
-  const handleLogout = () => {
-    localStorage.removeItem('authToken');
-    navigate('/login');
-  };
-
-  return (
-    <div className="dashboard">
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <h1>Dashboard</h1>
-        <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-          <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
-          <Logout onLogout={handleLogout} />
-        </div>
-      </div>
-      <p>Welcome to the Bank Account Dashboard</p>
-    </div>
-  );
+    return (
+        <Layout>
+            <div className={`dashboard ${theme}`}>
+                <h1>Dashboard</h1>
+                <p>Welcome to the Bank Account Dashboard</p>
+                <AccountSummary username={username} />
+            </div>
+        </Layout>
+    );
 }
 
-export default Dashboard
+export default Dashboard;

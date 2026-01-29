@@ -1,12 +1,16 @@
+
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-interface LogoutProps {
-  onLogout: () => void;
-}
-
-const Logout: React.FC<LogoutProps> = ({ onLogout }) => {
+const Logout: React.FC = () => {
+  const navigate = useNavigate();
+  
+  const handleLogout = () => {
+    localStorage.removeItem('authToken');
+    navigate('/login');
+  };
   return (
-    <button onClick={onLogout} className="logout-button">
+    <button onClick={handleLogout} className="logout-button">
       Logout
     </button>
   );
