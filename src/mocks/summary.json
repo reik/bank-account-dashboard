@@ -1,0 +1,130 @@
+[
+    {
+        "accountNumber": "123456789",
+        "type": "Checking",
+        "balance": 2540.75,
+        "spendingPastMonth": {
+            "groceries": {
+                "percent": 0.32,
+                "amount": 813.04,
+                "warning": true
+            },
+            "entertainment": {
+                "percent": 0.16,
+                "amount": 406.52,
+                "warning": true
+            },
+            "utilities": {
+                "percent": 0.09,
+                "amount": 228.67,
+                "warning": false
+            },
+            "transportation": {
+                "percent": 0.06,
+                "amount": 152.45,
+                "warning": false
+            },
+            "dining": {
+                "percent": 0.11,
+                "amount": 279.48,
+                "warning": false
+            },
+            "healthcare": {
+                "percent": 0.07,
+                "amount": 177.85,
+                "warning": false
+            },
+            "other": {
+                "percent": 0.19,
+                "amount": 482.74,
+                "warning": false
+            }
+        },
+        "spendingAverage": {
+            "groceries": {
+                "percent": 0.22,
+                "amount": 558.97
+            },
+            "entertainment": {
+                "percent": 0.12,
+                "amount": 304.89
+            },
+            "utilities": {
+                "percent": 0.05,
+                "amount": 127.04
+            },
+            "transportation": {
+                "percent": 0.07,
+                "amount": 177.85
+            },
+            "dining": {
+                "percent": 0.11,
+                "amount": 279.48
+            },
+            "healthcare": {
+                "percent": 0.1,
+                "amount": 254.08
+            },
+            "other": {
+                "percent": 0.17,
+                "amount": 431.93
+            }
+        },
+        "spendingWarnings": {
+            "entertainment": true,
+            "dining": false
+        },
+        "balanceHistory": [
+            { "date": "2025-01-01", "balance": 3000.0 },
+            { "date": "2025-02-01", "balance": 2800.5 },
+            { "date": "2025-03-01", "balance": 2600.75 },
+            { "date": "2025-04-01", "balance": 2550.0 },
+            { "date": "2025-05-01", "balance": 2670.75 },
+            { "date": "2025-06-01", "balance": 2940.75 },
+            { "date": "2025-07-01", "balance": 2840.75 },
+            { "date": "2025-08-01", "balance": 3040.75 },
+            { "date": "2025-09-01", "balance": 3240.75 },
+            { "date": "2025-10-01", "balance": 3640.75 },
+            { "date": "2025-11-01", "balance": 3562.75 },
+            { "date": "2025-12-01", "balance": 4040.75 }
+        ]
+    },
+    {
+        "accountNumber": "987654321",
+        "type": "Savings",
+        "balance": 10500.0,
+        "balanceHistory": [
+            { "date": "2025-01-01", "balance": 13000.0 },
+            { "date": "2025-02-01", "balance": 12800.5 },
+            { "date": "2025-03-01", "balance": 12600.75 },
+            { "date": "2025-04-01", "balance": 12550.0 },
+            { "date": "2025-05-01", "balance": 12670.75 },
+            { "date": "2025-06-01", "balance": 12940.75 },
+            { "date": "2025-07-01", "balance": 12840.75 },
+            { "date": "2025-08-01", "balance": 13040.75 },
+            { "date": "2025-09-01", "balance": 8240.75 },
+            { "date": "2025-10-01", "balance": 9640.75 },
+            { "date": "2025-11-01", "balance": 12562.75 },
+            { "date": "2025-12-01", "balance": 14040.75 }
+        ]
+    },
+    {
+        "accountNumber": "555666777",
+        "type": "Investment",
+        "balance": 32000.5,
+        "balanceHistory": [
+            { "date": "2025-01-01", "balance": 1300.0 },
+            { "date": "2025-02-01", "balance": 1320.5 },
+            { "date": "2025-03-01", "balance": 1420.75 },
+            { "date": "2025-04-01", "balance": 1445.0 },
+            { "date": "2025-05-01", "balance": 1550.75 },
+            { "date": "2025-06-01", "balance": 1665.75 },
+            { "date": "2025-07-01", "balance": 1768.75 },
+            { "date": "2025-08-01", "balance": 1873.75 },
+            { "date": "2025-09-01", "balance": 8040.75 },
+            { "date": "2025-10-01", "balance": 9640.75 },
+            { "date": "2025-11-01", "balance": 12562.75 },
+            { "date": "2025-12-01", "balance": 14040.75 }
+        ]
+    }
+]
