@@ -28,9 +28,9 @@ const AccountSummary: React.FC<AccountSummaryProps> = ({ username }) => {
 
     return (
         <Box sx={{ width: '100%' }}>
-            <Grid container spacing={4}>
+            <Grid container spacing={3}>
                 {accounts.map((acc) => (
-                    <Grid size={4} item key={acc.accountNumber}>
+                    <Grid size={4} key={acc.accountNumber}>
                         <Card
                             variant="outlined"
                             sx={{ cursor: 'pointer' }}
@@ -47,7 +47,7 @@ const AccountSummary: React.FC<AccountSummaryProps> = ({ username }) => {
                                     Balance
                                 </Typography>
                                 <Typography
-                                    variant="h5"
+                                    variant="h4"
                                     color={acc.type === 'Checking' ? 'primary' : 'secondary'}
                                 >
                                     $
@@ -60,10 +60,10 @@ const AccountSummary: React.FC<AccountSummaryProps> = ({ username }) => {
                     </Grid>
                 ))}
                 {accounts.map((acc) => (
-                    <Grid item xs={12} md={6} key={acc.accountNumber + '-chart'}>
-                        <Card>
+                    <Grid size={4} key={acc.accountNumber + '-chart'}>
+                        <Card sx={{ height: '100%' }}>
                             <CardContent>
-                                <Typography variant="h6" gutterBottom>
+                                <Typography variant="subtitle1" sx={{ marginBottom: '20px' }}>
                                     {acc.type} Account Balance History
                                 </Typography>
                                 <BalanceChart
@@ -79,7 +79,7 @@ const AccountSummary: React.FC<AccountSummaryProps> = ({ username }) => {
                 <Box sx={{ width: '100%' }}>
                     <Grid container>
                         <Grid size={9}>
-                            <Typography variant="h6" gutterBottom>
+                            <Typography variant="h6" sx={{ margin: '20px' }}>
                                 Spending Comparison (Past Month vs. Average)
                             </Typography>
                             <SpendingChart

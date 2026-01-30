@@ -1,0 +1,12 @@
+.spend-warn {
+    white-space: nowrap;
+    span {
+        font-weight: normal;
+        font-size: 1.2rem;
+    }
+}
+.spend-warn-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}

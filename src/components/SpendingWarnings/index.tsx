@@ -1,5 +1,6 @@
 import React from 'react';
 import { Alert, List, ListItem, ListItemText } from '@mui/material';
+import './SpendingWarnings.css';
 
 interface SpendingWarningsProps {
     spendingPastMonth: {
@@ -22,8 +23,8 @@ const SpendingWarnings: React.FC<SpendingWarningsProps> = ({ spendingPastMonth }
     if (warningCategories.length === 0) return null;
 
     return (
-        <Alert severity="warning" sx={{ mt: 2 }}>
-            <strong>Spending Warning</strong>
+        <Alert severity="warning" sx={{ mt: 2 }} className="spend-warn">
+            <strong className="spend-warn-header">Spending Warning</strong>
             <List dense>
                 {warningCategories.map(({ category, amount }) => (
                     <ListItem key={category} disablePadding>

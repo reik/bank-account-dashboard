@@ -1,11 +1,15 @@
 import React from 'react';
 import NavBar from '../NavBar';
+import { useTheme } from '../../components/Theme/ThemeContext';
+import './Layout.css';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+    const { theme } = useTheme();
+
     return (
-        <div>
+        <div className={`layout ${theme}`}>
             <NavBar />
-            <main>{children}</main>
+            <main className="main">{children}</main>
         </div>
     );
 };

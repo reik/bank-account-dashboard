@@ -22,8 +22,6 @@ function Dashboard(): React.ReactElement {
     return (
         <Layout>
             <div className={`dashboard ${theme}`}>
-                <h1>Dashboard</h1>
-                <p>Welcome to the Bank Account Dashboard</p>
                 <AccountSummary username={username} />
             </div>
         </Layout>

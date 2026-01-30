@@ -117,7 +117,7 @@ const Account: React.FC = () => {
         <Layout>
             <div className={`account ${theme}`}>
                 <Typography variant="h5" gutterBottom>
-                    Account #{accountNumber} - Transactions
+                    Account #{accountNumber} - Monthly Transactions
                 </Typography>
                 <FormControl
                     variant="outlined"
