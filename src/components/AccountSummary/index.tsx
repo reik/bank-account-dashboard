@@ -21,7 +21,7 @@ const AccountSummary: React.FC<AccountSummaryProps> = ({ username }) => {
         }, 1000);
     }, [username]);
 
-    if (loading) return <div className="account-summary">Loading account summary...</div>;
+    if (loading) return <div>Loading account summary...</div>;
 
     // Find the checking account for the charts and warnings
     const checkingAccount = accounts.find((acc) => acc.type === 'Checking');

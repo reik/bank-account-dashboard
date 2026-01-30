@@ -7,7 +7,10 @@ import { ThemeContext, Theme } from './components/Theme/ThemeContext';
 
 const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [theme, setTheme] = useState<Theme>('light');
-    const toggleTheme = () => setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
+    const toggleTheme = () => {
+        setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
+        document.body.classList.toggle('dark');
+    };
     return <ThemeContext.Provider value={{ theme, toggleTheme }}>{children}</ThemeContext.Provider>;
 };
 

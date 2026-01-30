@@ -7,7 +7,7 @@ const ThemeToggle: React.FC = () => {
     const { theme, toggleTheme } = useTheme();
     return (
         <FormControlLabel
-            control={<Switch checked={theme === 'dark'} onChange={toggleTheme} color="primary" />}
+            control={<Switch checked={theme === 'dark'} onChange={toggleTheme} />}
             label={theme === 'dark' ? 'Dark' : 'Light'}
         />
     );
