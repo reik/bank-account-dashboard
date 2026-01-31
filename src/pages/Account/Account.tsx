@@ -98,6 +98,7 @@ const Account: React.FC = () => {
             transactionMonth.year,
             transactionMonth.month
         );
+
         setRows(filtered);
     }, [transactionMonth]);
 
@@ -112,6 +113,8 @@ const Account: React.FC = () => {
         const [year, month] = event.target.value.split('-').map(Number);
         setTransactionMonth({ year, month });
     };
+
+    console.log('uniqueMonths!', uniqueMonths);
 
     return (
         <Layout>

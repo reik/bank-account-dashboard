@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Box, Grid } from '@mui/material';
 import NavBar from '../NavBar';
 import NotificationPanel from '../NotificationPanel';
 import { useTheme } from '../../components/Theme/ThemeContext';
@@ -12,11 +11,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (
         <div className={`layout ${theme}`}>
             <NavBar onNotificationClick={() => setShowNotifications((prev) => !prev)} />
-            <Grid container>
-                <Grid item xs={12}>
-                    <Box sx={{ p: 3 }}>{children}</Box>
-                </Grid>
-            </Grid>
+            {children}
             <NotificationPanel
                 open={showNotifications}
                 onClose={() => setShowNotifications(false)}

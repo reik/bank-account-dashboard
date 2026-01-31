@@ -12,12 +12,12 @@
             "entertainment": {
                 "percent": 0.16,
                 "amount": 406.52,
-                "warning": true
+                "warning": false
             },
             "utilities": {
                 "percent": 0.09,
                 "amount": 228.67,
-                "warning": false
+                "warning": true
             },
             "transportation": {
                 "percent": 0.06,
@@ -70,10 +70,7 @@
                 "amount": 431.93
             }
         },
-        "spendingWarnings": {
-            "entertainment": true,
-            "dining": false
-        },
+
         "balanceHistory": [
             { "date": "2025-01-01", "balance": 3000.0 },
             { "date": "2025-02-01", "balance": 2800.5 },

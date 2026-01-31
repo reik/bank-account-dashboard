@@ -25,6 +25,7 @@ interface BalanceChartProps {
 const BalanceChart: React.FC<BalanceChartProps> = ({ accountType, balanceHistory }) => {
     if (!balanceHistory || balanceHistory.length === 0) return null;
 
+    const color = accountType === 'Checking' ? '#1976d2' : '#9c27b0';
     const data = {
         labels: balanceHistory.map((entry) => entry.date),
         datasets: [
@@ -32,8 +33,8 @@ const BalanceChart: React.FC<BalanceChartProps> = ({ accountType, balanceHistory
                 label: `${accountType} Balance`,
                 data: balanceHistory.map((entry) => entry.balance),
                 fill: false,
-                borderColor: '#1976d2',
-                backgroundColor: '#1976d2',
+                borderColor: color,
+                backgroundColor: color,
                 tension: 0.2,
             },
         ],

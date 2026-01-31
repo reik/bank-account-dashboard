@@ -1,0 +1,27 @@
+[
+    {
+        "type": "spendingCategoryWarnings",
+        "data": {
+            "entertainment": 813.04,
+            "dining": 406.52
+        }
+    },
+    {
+        "type": "spendingMerchantWarnings",
+        "data": {
+            "Starbuck": 334.04,
+            "GameStop": 206.52
+        }
+    },
+    {
+        "type": "savingToInvestment",
+        "data": { "amount": 500.0, "investmentTarget": "Retirement Fund" }
+    },
+    {
+        "type": "recurringPaymentReminders",
+        "data": [
+            { "bill": "Electricity", "dueDate": "2025-02-10", "amount": 120.5 },
+            { "bill": "Internet", "dueDate": "2025-02-15", "amount": 60.0 }
+        ]
+    }
+]

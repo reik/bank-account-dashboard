@@ -76,8 +76,8 @@ const AccountSummary: React.FC<AccountSummaryProps> = ({ username }) => {
                 ))}
             </Grid>
             {checkingAccount?.spendingPastMonth && checkingAccount?.spendingAverage && (
-                <Box sx={{ width: '100%' }}>
-                    <Grid container>
+                <Card sx={{ width: '100%', marginTop: '20px' }}>
+                    <Grid container sx={{ paddingBottom: '20px' }}>
                         <Grid size={9}>
                             <Typography variant="h6" sx={{ margin: '20px' }}>
                                 Spending Comparison (Past Month vs. Average)
@@ -87,13 +87,13 @@ const AccountSummary: React.FC<AccountSummaryProps> = ({ username }) => {
                                 spendingAverage={checkingAccount.spendingAverage}
                             />
                         </Grid>
-                        <Grid size={3}>
+                        <Grid size={3} alignItems="center" sx={{ padding: '20px' }}>
                             <SpendingWarnings
                                 spendingPastMonth={checkingAccount.spendingPastMonth}
                             />
                         </Grid>
                     </Grid>
-                </Box>
+                </Card>
             )}
         </Box>
     );

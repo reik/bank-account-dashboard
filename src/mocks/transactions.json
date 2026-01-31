@@ -32,10 +32,9 @@
     {
         "type": "debit",
         "date": "2025-12-12",
-        "merchant": "Walmart",
+        "merchant": "GameStop",
         "amount": 84.89,
-        "category": "utility",
-        "location": "Seattle, WA",
+        "location": "New York, NY",
         "paymentMethod": "Visa **** 1234",
         "recurring": false
     },
@@ -52,7 +51,7 @@
     {
         "type": "debit",
         "date": "2025-12-10",
-        "merchant": "Target",
+        "merchant": "GameStop",
         "amount": 63.81,
         "category": "entertainment",
         "location": "New York, NY",
@@ -63,7 +62,7 @@
         "type": "debit",
         "date": "2025-12-09",
         "merchant": "Amazon",
-        "amount": 43.70,
+        "amount": 43.7,
         "category": "education",
         "location": "Austin, TX",
         "paymentMethod": "Visa **** 1234",
@@ -151,7 +150,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-12-00",
+        "date": "2025-12-01",
         "merchant": "Target",
         "amount": 167.87,
         "category": "utility",
@@ -161,7 +160,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--1",
+        "date": "2025-12-01",
         "merchant": "Amazon",
         "amount": 156.72,
         "category": "grocery",
@@ -171,9 +170,9 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--2",
+        "date": "2025-12-02",
         "merchant": "Starbucks",
-        "amount": 139.60,
+        "amount": 139.6,
         "category": "entertainment",
         "location": "New York, NY",
         "paymentMethod": "Amex **** 9012",
@@ -181,7 +180,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--3",
+        "date": "2025-12-03",
         "merchant": "Walmart",
         "amount": 160.26,
         "category": "education",
@@ -191,7 +190,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--4",
+        "date": "2025-12-04",
         "merchant": "Apple Store",
         "amount": 117.17,
         "category": "utility",
@@ -201,7 +200,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--5",
+        "date": "2025-12-05",
         "merchant": "Target",
         "amount": 69.24,
         "category": "grocery",
@@ -211,7 +210,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--6",
+        "date": "2025-12-06",
         "merchant": "Amazon",
         "amount": 127.89,
         "category": "entertainment",
@@ -221,7 +220,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--7",
+        "date": "2025-12-07",
         "merchant": "Starbucks",
         "amount": 67.31,
         "category": "education",
@@ -231,7 +230,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--8",
+        "date": "2025-12-08",
         "merchant": "Walmart",
         "amount": 165.44,
         "category": "utility",
@@ -241,7 +240,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--9",
+        "date": "2025-12-09",
         "merchant": "Apple Store",
         "amount": 29.14,
         "category": "grocery",
@@ -251,7 +250,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--10",
+        "date": "2025-12-10",
         "merchant": "Target",
         "amount": 45.81,
         "category": "entertainment",
@@ -261,7 +260,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--11",
+        "date": "2025-12-11",
         "merchant": "Amazon",
         "amount": 62.59,
         "category": "education",
@@ -271,7 +270,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--12",
+        "date": "2025-12-12",
         "merchant": "Starbucks",
         "amount": 74.34,
         "category": "utility",
@@ -281,9 +280,9 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--13",
+        "date": "2025-12-13",
         "merchant": "Walmart",
-        "amount": 17.10,
+        "amount": 17.1,
         "category": "grocery",
         "location": "San Francisco, CA",
         "paymentMethod": "Mastercard **** 5678",
@@ -291,9 +290,9 @@
     },
     {
         "type": "debit",
-        "date": "2025-12--14",
+        "date": "2025-12-14",
         "merchant": "Apple Store",
-        "amount": 94.70,
+        "amount": 94.7,
         "category": "entertainment",
         "location": "New York, NY",
         "paymentMethod": "Amex **** 9012",
@@ -424,7 +423,7 @@
         "date": "2025-11-03",
         "merchant": "Starbucks",
         "amount": 27.99,
-        "category": "education",
+        "category": "dining",
         "location": "Austin, TX",
         "paymentMethod": "Visa **** 1234",
         "recurring": false
@@ -451,7 +450,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-11-00",
+        "date": "2025-11-04",
         "merchant": "Target",
         "amount": 49.88,
         "category": "entertainment",
@@ -461,7 +460,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-11--1",
+        "date": "2025-11-01",
         "merchant": "Amazon",
         "amount": 39.15,
         "category": "education",
@@ -471,19 +470,19 @@
     },
     {
         "type": "debit",
-        "date": "2025-11--2",
+        "date": "2025-11-02",
         "merchant": "Starbucks",
-        "amount": 195.30,
-        "category": "utility",
+        "amount": 195.3,
+        "category": "dining",
         "location": "Seattle, WA",
         "paymentMethod": "Amex **** 9012",
         "recurring": false
     },
     {
         "type": "debit",
-        "date": "2025-11--3",
+        "date": "2025-11-03",
         "merchant": "Walmart",
-        "amount": 144.40,
+        "amount": 144.4,
         "category": "grocery",
         "location": "San Francisco, CA",
         "paymentMethod": "Visa **** 1234",
@@ -491,7 +490,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-11--4",
+        "date": "2025-11-04",
         "merchant": "Apple Store",
         "amount": 159.37,
         "category": "entertainment",
@@ -501,7 +500,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-11--5",
+        "date": "2025-11-05",
         "merchant": "Target",
         "amount": 23.41,
         "category": "education",
@@ -511,7 +510,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-11--6",
+        "date": "2025-11-06",
         "merchant": "Amazon",
         "amount": 149.03,
         "category": "utility",
@@ -521,17 +520,17 @@
     },
     {
         "type": "debit",
-        "date": "2025-11--7",
+        "date": "2025-11-07",
         "merchant": "Starbucks",
         "amount": 67.17,
-        "category": "grocery",
+        "category": "dining",
         "location": "San Francisco, CA",
         "paymentMethod": "Mastercard **** 5678",
         "recurring": false
     },
     {
         "type": "debit",
-        "date": "2025-11--8",
+        "date": "2025-11-08",
         "merchant": "Walmart",
         "amount": 149.15,
         "category": "entertainment",
@@ -541,7 +540,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-11--9",
+        "date": "2025-11-09",
         "merchant": "Apple Store",
         "amount": 202.18,
         "category": "education",
@@ -551,7 +550,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-11--10",
+        "date": "2025-11-10",
         "merchant": "Target",
         "amount": 145.39,
         "category": "utility",
@@ -561,7 +560,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-11--11",
+        "date": "2025-11-11",
         "merchant": "Amazon",
         "amount": 69.15,
         "category": "grocery",
@@ -571,17 +570,17 @@
     },
     {
         "type": "debit",
-        "date": "2025-11--12",
+        "date": "2025-11-12",
         "merchant": "Starbucks",
-        "amount": 115.23,
-        "category": "entertainment",
+        "amount": 15.23,
+        "category": "dining",
         "location": "New York, NY",
         "paymentMethod": "Visa **** 1234",
         "recurring": false
     },
     {
         "type": "debit",
-        "date": "2025-11--13",
+        "date": "2025-11-13",
         "merchant": "Walmart",
         "amount": 40.09,
         "category": "education",
@@ -591,7 +590,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-11--14",
+        "date": "2025-11-14",
         "merchant": "Apple Store",
         "amount": 126.08,
         "category": "utility",
@@ -623,8 +622,8 @@
         "type": "debit",
         "date": "2025-10-13",
         "merchant": "Starbucks",
-        "amount": 166.46,
-        "category": "education",
+        "amount": 16.46,
+        "category": "dining",
         "location": "Austin, TX",
         "paymentMethod": "Amex **** 9012",
         "recurring": false
@@ -673,8 +672,8 @@
         "type": "debit",
         "date": "2025-10-08",
         "merchant": "Starbucks",
-        "amount": 195.77,
-        "category": "utility",
+        "amount": 15.77,
+        "category": "dining",
         "location": "Seattle, WA",
         "paymentMethod": "Mastercard **** 5678",
         "recurring": false
@@ -751,9 +750,9 @@
     },
     {
         "type": "debit",
-        "date": "2025-10-00",
+        "date": "2025-10-04",
         "merchant": "Target",
-        "amount": 125.60,
+        "amount": 125.6,
         "category": "utility",
         "location": "Seattle, WA",
         "paymentMethod": "Visa **** 1234",
@@ -761,7 +760,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-10--1",
+        "date": "2025-10-01",
         "merchant": "Amazon",
         "amount": 22.45,
         "category": "grocery",
@@ -771,19 +770,19 @@
     },
     {
         "type": "debit",
-        "date": "2025-10--2",
+        "date": "2025-10-02",
         "merchant": "Starbucks",
         "amount": 147.42,
-        "category": "entertainment",
+        "category": "dining",
         "location": "New York, NY",
         "paymentMethod": "Amex **** 9012",
         "recurring": false
     },
     {
         "type": "debit",
-        "date": "2025-10--3",
+        "date": "2025-10-03",
         "merchant": "Walmart",
-        "amount": 26.50,
+        "amount": 26.5,
         "category": "education",
         "location": "Austin, TX",
         "paymentMethod": "Visa **** 1234",
@@ -791,7 +790,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-10--4",
+        "date": "2025-10-04",
         "merchant": "Apple Store",
         "amount": 68.12,
         "category": "utility",
@@ -801,7 +800,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-10--5",
+        "date": "2025-10-05",
         "merchant": "Target",
         "amount": 161.96,
         "category": "grocery",
@@ -811,7 +810,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-10--6",
+        "date": "2025-10-06",
         "merchant": "Amazon",
         "amount": 101.18,
         "category": "entertainment",
@@ -821,7 +820,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-10--7",
+        "date": "2025-10-07",
         "merchant": "Starbucks",
         "amount": 10.39,
         "category": "education",
@@ -831,7 +830,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-10--8",
+        "date": "2025-10-08",
         "merchant": "Walmart",
         "amount": 123.77,
         "category": "utility",
@@ -841,7 +840,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-10--9",
+        "date": "2025-10-09",
         "merchant": "Apple Store",
         "amount": 159.07,
         "category": "grocery",
@@ -851,7 +850,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-10--10",
+        "date": "2025-10-10",
         "merchant": "Target",
         "amount": 144.15,
         "category": "entertainment",
@@ -861,7 +860,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-10--11",
+        "date": "2025-10-11",
         "merchant": "Amazon",
         "amount": 90.01,
         "category": "education",
@@ -871,7 +870,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-10--12",
+        "date": "2025-10-12",
         "merchant": "Starbucks",
         "amount": 18.76,
         "category": "utility",
@@ -881,7 +880,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-10--13",
+        "date": "2025-10-13",
         "merchant": "Walmart",
         "amount": 128.07,
         "category": "grocery",
@@ -891,7 +890,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-10--14",
+        "date": "2025-10-14",
         "merchant": "Apple Store",
         "amount": 151.77,
         "category": "entertainment",
@@ -953,7 +952,7 @@
         "type": "debit",
         "date": "2025-09-10",
         "merchant": "Target",
-        "amount": 11.90,
+        "amount": 11.9,
         "category": "utility",
         "location": "Seattle, WA",
         "paymentMethod": "Amex **** 9012",
@@ -1051,7 +1050,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09-00",
+        "date": "2025-09-04",
         "merchant": "Target",
         "amount": 208.69,
         "category": "entertainment",
@@ -1061,7 +1060,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--1",
+        "date": "2025-09-01",
         "merchant": "Amazon",
         "amount": 13.49,
         "category": "education",
@@ -1071,7 +1070,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--2",
+        "date": "2025-09-02",
         "merchant": "Starbucks",
         "amount": 131.16,
         "category": "utility",
@@ -1081,7 +1080,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--3",
+        "date": "2025-09-03",
         "merchant": "Walmart",
         "amount": 132.47,
         "category": "grocery",
@@ -1091,7 +1090,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--4",
+        "date": "2025-09-04",
         "merchant": "Apple Store",
         "amount": 62.93,
         "category": "entertainment",
@@ -1101,7 +1100,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--5",
+        "date": "2025-09-05",
         "merchant": "Target",
         "amount": 98.64,
         "category": "education",
@@ -1111,7 +1110,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--6",
+        "date": "2025-09-06",
         "merchant": "Amazon",
         "amount": 65.41,
         "category": "utility",
@@ -1121,7 +1120,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--7",
+        "date": "2025-09-07",
         "merchant": "Starbucks",
         "amount": 32.44,
         "category": "grocery",
@@ -1131,7 +1130,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--8",
+        "date": "2025-09-08",
         "merchant": "Walmart",
         "amount": 172.54,
         "category": "entertainment",
@@ -1141,7 +1140,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--9",
+        "date": "2025-09-09",
         "merchant": "Apple Store",
         "amount": 106.46,
         "category": "education",
@@ -1151,7 +1150,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--10",
+        "date": "2025-09-10",
         "merchant": "Target",
         "amount": 186.79,
         "category": "utility",
@@ -1161,9 +1160,9 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--11",
+        "date": "2025-09-11",
         "merchant": "Amazon",
-        "amount": 152.10,
+        "amount": 152.1,
         "category": "grocery",
         "location": "San Francisco, CA",
         "paymentMethod": "Amex **** 9012",
@@ -1171,7 +1170,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--12",
+        "date": "2025-09-12",
         "merchant": "Starbucks",
         "amount": 51.72,
         "category": "entertainment",
@@ -1181,7 +1180,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--13",
+        "date": "2025-09-13",
         "merchant": "Walmart",
         "amount": 43.14,
         "category": "education",
@@ -1191,7 +1190,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-09--14",
+        "date": "2025-09-14",
         "merchant": "Apple Store",
         "amount": 144.01,
         "category": "utility",
@@ -1243,7 +1242,7 @@
         "type": "debit",
         "date": "2025-08-11",
         "merchant": "Apple Store",
-        "amount": 104.00,
+        "amount": 104.0,
         "category": "grocery",
         "location": "San Francisco, CA",
         "paymentMethod": "Mastercard **** 5678",
@@ -1351,7 +1350,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-08-00",
+        "date": "2025-08-04",
         "merchant": "Target",
         "amount": 169.22,
         "category": "utility",
@@ -1361,7 +1360,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--1",
+        "date": "2025-08-01",
         "merchant": "Amazon",
         "amount": 131.52,
         "category": "grocery",
@@ -1371,9 +1370,9 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--2",
+        "date": "2025-08-02",
         "merchant": "Starbucks",
-        "amount": 198.50,
+        "amount": 198.5,
         "category": "entertainment",
         "location": "New York, NY",
         "paymentMethod": "Amex **** 9012",
@@ -1381,9 +1380,9 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--3",
+        "date": "2025-08-03",
         "merchant": "Walmart",
-        "amount": 99.10,
+        "amount": 99.1,
         "category": "education",
         "location": "Austin, TX",
         "paymentMethod": "Visa **** 1234",
@@ -1391,7 +1390,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--4",
+        "date": "2025-08-04",
         "merchant": "Apple Store",
         "amount": 174.25,
         "category": "utility",
@@ -1401,7 +1400,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--5",
+        "date": "2025-08-05",
         "merchant": "Target",
         "amount": 45.88,
         "category": "grocery",
@@ -1411,7 +1410,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--6",
+        "date": "2025-08-06",
         "merchant": "Amazon",
         "amount": 44.89,
         "category": "entertainment",
@@ -1421,7 +1420,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--7",
+        "date": "2025-08-07",
         "merchant": "Starbucks",
         "amount": 90.92,
         "category": "education",
@@ -1431,7 +1430,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--8",
+        "date": "2025-08-08",
         "merchant": "Walmart",
         "amount": 183.09,
         "category": "utility",
@@ -1441,7 +1440,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--9",
+        "date": "2025-08-09",
         "merchant": "Apple Store",
         "amount": 159.18,
         "category": "grocery",
@@ -1451,7 +1450,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--10",
+        "date": "2025-08-10",
         "merchant": "Target",
         "amount": 49.04,
         "category": "entertainment",
@@ -1461,7 +1460,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--11",
+        "date": "2025-08-11",
         "merchant": "Amazon",
         "amount": 182.27,
         "category": "education",
@@ -1471,7 +1470,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--12",
+        "date": "2025-08-12",
         "merchant": "Starbucks",
         "amount": 201.16,
         "category": "utility",
@@ -1481,7 +1480,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--13",
+        "date": "2025-08-13",
         "merchant": "Walmart",
         "amount": 160.08,
         "category": "grocery",
@@ -1491,7 +1490,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-08--14",
+        "date": "2025-08-14",
         "merchant": "Apple Store",
         "amount": 80.35,
         "category": "entertainment",
@@ -1603,7 +1602,7 @@
         "type": "debit",
         "date": "2025-07-05",
         "merchant": "Target",
-        "amount": 52.60,
+        "amount": 52.6,
         "category": "grocery",
         "location": "San Francisco, CA",
         "paymentMethod": "Mastercard **** 5678",
@@ -1651,9 +1650,9 @@
     },
     {
         "type": "debit",
-        "date": "2025-07-00",
+        "date": "2025-07-04",
         "merchant": "Target",
-        "amount": 28.20,
+        "amount": 28.2,
         "category": "entertainment",
         "location": "New York, NY",
         "paymentMethod": "Visa **** 1234",
@@ -1661,7 +1660,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--1",
+        "date": "2025-07-01",
         "merchant": "Amazon",
         "amount": 53.71,
         "category": "education",
@@ -1671,7 +1670,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--2",
+        "date": "2025-07-02",
         "merchant": "Starbucks",
         "amount": 194.82,
         "category": "utility",
@@ -1681,7 +1680,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--3",
+        "date": "2025-07-03",
         "merchant": "Walmart",
         "amount": 61.84,
         "category": "grocery",
@@ -1691,7 +1690,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--4",
+        "date": "2025-07-04",
         "merchant": "Apple Store",
         "amount": 22.27,
         "category": "entertainment",
@@ -1701,7 +1700,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--5",
+        "date": "2025-07-05",
         "merchant": "Target",
         "amount": 188.15,
         "category": "education",
@@ -1711,7 +1710,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--6",
+        "date": "2025-07-06",
         "merchant": "Amazon",
         "amount": 39.37,
         "category": "utility",
@@ -1721,7 +1720,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--7",
+        "date": "2025-07-07",
         "merchant": "Starbucks",
         "amount": 124.04,
         "category": "grocery",
@@ -1731,7 +1730,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--8",
+        "date": "2025-07-08",
         "merchant": "Walmart",
         "amount": 206.38,
         "category": "entertainment",
@@ -1741,7 +1740,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--9",
+        "date": "2025-07-09",
         "merchant": "Apple Store",
         "amount": 198.94,
         "category": "education",
@@ -1751,7 +1750,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--10",
+        "date": "2025-07-10",
         "merchant": "Target",
         "amount": 180.25,
         "category": "utility",
@@ -1761,7 +1760,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--11",
+        "date": "2025-07-11",
         "merchant": "Amazon",
         "amount": 106.73,
         "category": "grocery",
@@ -1771,7 +1770,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--12",
+        "date": "2025-07-12",
         "merchant": "Starbucks",
         "amount": 179.52,
         "category": "entertainment",
@@ -1781,9 +1780,9 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--13",
+        "date": "2025-07-13",
         "merchant": "Walmart",
-        "amount": 44.20,
+        "amount": 44.2,
         "category": "education",
         "location": "Austin, TX",
         "paymentMethod": "Mastercard **** 5678",
@@ -1791,7 +1790,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-07--14",
+        "date": "2025-07-14",
         "merchant": "Apple Store",
         "amount": 138.51,
         "category": "utility",
@@ -1843,7 +1842,7 @@
         "type": "debit",
         "date": "2025-06-11",
         "merchant": "Apple Store",
-        "amount": 89.60,
+        "amount": 89.6,
         "category": "grocery",
         "location": "San Francisco, CA",
         "paymentMethod": "Mastercard **** 5678",
@@ -1883,7 +1882,7 @@
         "type": "debit",
         "date": "2025-06-07",
         "merchant": "Walmart",
-        "amount": 78.60,
+        "amount": 78.6,
         "category": "grocery",
         "location": "San Francisco, CA",
         "paymentMethod": "Amex **** 9012",
@@ -1951,7 +1950,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-06-00",
+        "date": "2025-06-04",
         "merchant": "Target",
         "amount": 96.14,
         "category": "utility",
@@ -1961,7 +1960,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-06--1",
+        "date": "2025-06-01",
         "merchant": "Amazon",
         "amount": 54.21,
         "category": "grocery",
@@ -1971,7 +1970,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-06--2",
+        "date": "2025-06-02",
         "merchant": "Starbucks",
         "amount": 44.87,
         "category": "entertainment",
@@ -1981,9 +1980,9 @@
     },
     {
         "type": "debit",
-        "date": "2025-06--3",
+        "date": "2025-06-03",
         "merchant": "Walmart",
-        "amount": 62.50,
+        "amount": 62.5,
         "category": "education",
         "location": "Austin, TX",
         "paymentMethod": "Visa **** 1234",
@@ -1991,7 +1990,7 @@
     },
     {
         "type": "debit",
-        "date": "2025-06--4",
+        "date": "2025-06-04",
         "merchant": "Apple Store",
         "amount": 70.74,
         "category": "utility",
@@ -2013,7 +2012,7 @@
     { "type": "credit", "date": "2025-10-09", "merchant": "Freelance", "amount": 3223.88 },
     { "type": "credit", "date": "2025-10-08", "merchant": "Refund", "amount": 3377.38 },
     { "type": "credit", "date": "2025-10-07", "merchant": "Gift", "amount": 1723.01 },
-    { "type": "credit", "date": "2025-10-06", "merchant": "Investment", "amount": 1458.80 },
+    { "type": "credit", "date": "2025-10-06", "merchant": "Investment", "amount": 1458.8 },
     { "type": "credit", "date": "2025-09-10", "merchant": "Employer Inc.", "amount": 1780.44 },
     { "type": "credit", "date": "2025-09-09", "merchant": "Freelance", "amount": 653.42 },
     { "type": "credit", "date": "2025-09-08", "merchant": "Refund", "amount": 1764.23 },
@@ -2038,12 +2037,12 @@
     { "type": "credit", "date": "2025-05-09", "merchant": "Freelance", "amount": 748.22 },
     { "type": "credit", "date": "2025-05-08", "merchant": "Refund", "amount": 2182.13 },
     { "type": "credit", "date": "2025-05-07", "merchant": "Gift", "amount": 1323.92 },
-    { "type": "credit", "date": "2025-05-06", "merchant": "Investment", "amount": 2053.30 },
+    { "type": "credit", "date": "2025-05-06", "merchant": "Investment", "amount": 2053.3 },
     { "type": "credit", "date": "2025-04-10", "merchant": "Employer Inc.", "amount": 2125.82 },
     { "type": "credit", "date": "2025-04-09", "merchant": "Freelance", "amount": 3071.65 },
     { "type": "credit", "date": "2025-04-08", "merchant": "Refund", "amount": 2741.01 },
     { "type": "credit", "date": "2025-04-07", "merchant": "Gift", "amount": 2642.58 },
-    { "type": "credit", "date": "2025-04-06", "merchant": "Investment", "amount": 1896.20 },
+    { "type": "credit", "date": "2025-04-06", "merchant": "Investment", "amount": 1896.2 },
     { "type": "credit", "date": "2025-03-10", "merchant": "Employer Inc.", "amount": 2134.03 },
     { "type": "credit", "date": "2025-03-09", "merchant": "Freelance", "amount": 635.66 },
     { "type": "credit", "date": "2025-03-08", "merchant": "Refund", "amount": 3248.32 },
