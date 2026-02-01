@@ -31,7 +31,7 @@ npm install
 ```bash
 npm run dev
 ```
-Visit [http://localhost:5173/bank-account-dashboard/](http://localhost:5173/bank-account-dashboard/) in your browser.
+Visit [http://localhost:5173/](http://localhost:5173/) in your browser.
 
 ### Building for Production
 ```bash

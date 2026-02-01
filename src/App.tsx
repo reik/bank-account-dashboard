@@ -17,7 +17,7 @@ const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) =>
 function App(): React.ReactElement {
     return (
         <ThemeProvider>
-            <BrowserRouter basename="bank-account-dashboard">
+            <BrowserRouter>
                 <Routes>
                     <Route path="/login" element={<Login />} />
                     <Route path="/dashboard" element={<Dashboard />} />
