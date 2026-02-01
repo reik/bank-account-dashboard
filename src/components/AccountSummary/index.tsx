@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Card, CardContent, Grid, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import { AccountSummaryData, AccountSummaryProps } from './types';
+import { AccountSummaryData } from './types';
 import summaryData from '../../mocks/summary.json';
 import { SpendingChart } from '../SpendingChart';
 import { BalanceChart } from '../BalanceChart';
-import SpendingWarnings from '../SpendingWarnings';
+import Alerts from '../SpendingWarnings';
 
-const AccountSummary: React.FC<AccountSummaryProps> = ({ username }) => {
+const AccountSummary: React.FC = () => {
     const [accounts, setAccounts] = useState<AccountSummaryData[]>([]);
     const [loading, setLoading] = useState(true);
-
     const navigate = useNavigate();
+
     useEffect(() => {
         setLoading(true);
         // Simulate API call delay
@@ -19,7 +19,7 @@ const AccountSummary: React.FC<AccountSummaryProps> = ({ username }) => {
             setAccounts(summaryData);
             setLoading(false);
         }, 1000);
-    }, [username]);
+    }, []);
 
     if (loading) return <div>Loading account summary...</div>;
 
@@ -33,7 +33,7 @@ const AccountSummary: React.FC<AccountSummaryProps> = ({ username }) => {
                     <Grid size={4} key={acc.accountNumber}>
                         <Card
                             variant="outlined"
-                            sx={{ cursor: 'pointer' }}
+                            sx={{ border: '1px solid', cursor: 'pointer' }}
                             onClick={() => navigate(`/account/${acc.accountNumber}`)}
                         >
                             <CardContent>
@@ -76,7 +76,7 @@ const AccountSummary: React.FC<AccountSummaryProps> = ({ username }) => {
                 ))}
             </Grid>
             {checkingAccount?.spendingPastMonth && checkingAccount?.spendingAverage && (
-                <Card sx={{ width: '100%', marginTop: '20px' }}>
+                <Card sx={{ width: '100%', marginTop: '20px', border: '1px solid' }}>
                     <Grid container sx={{ paddingBottom: '20px' }}>
                         <Grid size={9}>
                             <Typography variant="h6" sx={{ margin: '20px' }}>
@@ -88,9 +88,7 @@ const AccountSummary: React.FC<AccountSummaryProps> = ({ username }) => {
                             />
                         </Grid>
                         <Grid size={3} alignItems="center" sx={{ padding: '20px' }}>
-                            <SpendingWarnings
-                                spendingPastMonth={checkingAccount.spendingPastMonth}
-                            />
+                            <Alerts spendingPastMonth={checkingAccount.spendingPastMonth} />
                         </Grid>
                     </Grid>
                 </Card>

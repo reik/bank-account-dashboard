@@ -12,12 +12,12 @@
             "entertainment": {
                 "percent": 0.16,
                 "amount": 406.52,
-                "warning": false
+                "warning": true
             },
             "utilities": {
                 "percent": 0.09,
                 "amount": 228.67,
-                "warning": true
+                "warning": false
             },
             "transportation": {
                 "percent": 0.06,
@@ -39,6 +39,10 @@
                 "amount": 482.74,
                 "warning": false
             }
+        },
+        "spendingMerchant": {
+            "Starbuck": 334.04,
+            "GameStop": 206.52
         },
         "spendingAverage": {
             "groceries": {

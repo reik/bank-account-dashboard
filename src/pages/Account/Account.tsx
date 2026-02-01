@@ -114,19 +114,13 @@ const Account: React.FC = () => {
         setTransactionMonth({ year, month });
     };
 
-    console.log('uniqueMonths!', uniqueMonths);
-
     return (
         <Layout>
             <div className={`account ${theme}`}>
                 <Typography variant="h5" gutterBottom>
                     Account #{accountNumber} - Monthly Transactions
                 </Typography>
-                <FormControl
-                    variant="outlined"
-                    size="small"
-                    style={{ minWidth: 200, marginBottom: 16 }}
-                >
+                <FormControl variant="outlined" size="small" style={{ minWidth: 200, margin: 16 }}>
                     <InputLabel id="month-select-label">Select Month</InputLabel>
                     <Select
                         labelId="month-select-label"

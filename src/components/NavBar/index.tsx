@@ -27,13 +27,12 @@ const NavBar: React.FC<NavBarProps> = ({ onNotificationClick }) => {
                 gap={2}
                 style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}
             >
-                <IconButton
-                    color="inherit"
-                    onClick={onNotificationClick}
-                    aria-label="notifications"
-                >
-                    <NotificationsIcon />
-                </IconButton>
+                <div className="navbar-notification-wrapper" onClick={onNotificationClick}>
+                    <IconButton color="inherit" aria-label="notifications">
+                        <NotificationsIcon />
+                    </IconButton>
+                    <span className="navbar-notification-badge">4</span>
+                </div>
                 <ThemeToggle />
                 <Logout />
             </Grid>

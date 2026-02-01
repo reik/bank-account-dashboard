@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, List, ListItem, ListItemText } from '@mui/material';
+import { Alert, Box, List, ListItem, ListItemText, Typography } from '@mui/material';
 import './SpendingWarnings.css';
 
 interface SpendingWarningsProps {
@@ -23,9 +23,11 @@ const SpendingWarnings: React.FC<SpendingWarningsProps> = ({ spendingPastMonth }
     if (warningCategories.length === 0) return null;
 
     return (
-        <Alert severity="warning" sx={{ mt: 2 }} className="spend-warn">
-            <strong className="spend-warn-header">Spending Warning</strong>
-            <List dense>
+        <Box>
+            <Typography variant="h6" sx={{ color: '#965b03ff' }}>
+                Spending Warning
+            </Typography>
+            <Alert severity="warning" sx={{ mt: 2 }} className="spend-warn">
                 {warningCategories.map(({ category, amount }) => (
                     <ListItem key={category} disablePadding>
                         <ListItemText
@@ -33,8 +35,8 @@ const SpendingWarnings: React.FC<SpendingWarningsProps> = ({ spendingPastMonth }
                         />
                     </ListItem>
                 ))}
-            </List>
-        </Alert>
+            </Alert>
+        </Box>
     );
 };
 
